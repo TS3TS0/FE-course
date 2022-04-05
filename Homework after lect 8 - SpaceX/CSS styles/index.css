@@ -1,5 +1,11 @@
 @font-face {
        font-family: "Custom font";
+       src: url("../Fonts/DINLight.ttf");
+       font-weight: 300;
+}
+
+@font-face {
+       font-family: "Custom font";
        src: url("../Fonts/D-DIN.woff2");
        font-weight: 400;
 }
@@ -80,4 +86,50 @@ header {
        font-weight: 400;
        font-size: 20px;
        margin-top: -50px;
+}
+
+/* Initial statistics styling */
+
+#InitialStats table {
+       color: #FFFFFF;
+       text-align: center;
+       padding: 0 400px;
+       width: 100%;
+       margin-top: 400px;
+}
+
+#InitialStats table th {
+       font-family: "Custom font";
+       font-weight: 300;
+       font-size: 140px;
+}
+
+#InitialStats table td {
+       font-family: "Custom font";
+       font-weight: 400;
+       font-size: 22px;
+}
+
+#InitialStatsImage {
+       width: 100%;
+       position: absolute;
+       margin-top: 50px;
+}
+
+#InitialStats p {
+       color: #FFFFFF;
+       position: relative;
+       margin-top: 17%;
+       padding: 0 200px;
+       width: 30%;
+       font-family: "Custom font";
+       font-weight: 400;
+       font-size: 20px;
+       line-height: 40px;
+}
+
+
+/* Info cards styling */
+#InfoCards {
+       margin-top: 500px;
 }
