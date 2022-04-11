@@ -1,0 +1,31 @@
+body {
+  background-color: #083e74;
+}
+#logo {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 200px;
+  transition: all 250ms ease-in-out;
+}
+#logo:hover {
+  transform: scale(1.2);
+}
+#navigationLinksWrapper {
+  position: absolute;
+  left: 500px;
+  top: 55px;
+}
+.navLink {
+  color: #ffffff;
+  margin: 0 100px;
+  font-size: 17pt;
+  text-decoration: double;
+  opacity: 0.7;
+  transition: all 250ms ease-in-out;
+}
+.navLink:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
