@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact us</title> 
+        <link rel="icon" type="image/x-icon" href="../Images/Logo.png">       
+    </head>
+    <body>
+        
+        <header>
+            <table style="margin-bottom: 15px;">
+                <thead>
+                    <th>
+                        <img src="../Images/Logo.png" alt="logo" style="margin-right: 500px;" usemap="#maplogo"/>
+                        <map name="maplogo">
+                            <area target="_self" alt="home" title="home" href="index.html" coords="35,35,34" shape="circle">
+                        </map>
+                    </th>
+                    <th width="200">
+                        <a href="https://www.nasa.gov/news/releases/latest/index.html" target="_blank">News</a>
+                    </th>
+                    <th width="200">
+                        <a href="../Pages/ContactUs.html" target="_self">Contact us</a>
+                    </th>
+                    <th width="200">
+                        <a href="../Pages/Gallery.html" target="_self">Gallery</a>
+                    </th>
+                </thead>
+            </table>
+            
+            <div>
+                <a href="../Pages/index.html">Planets</a> >> Contact us
+            </div>
+        </header>
+
+        <main>
+            <h1>Let's talk</h1>
+
+            <table style="margin-left: 100px;">
+                <thead >
+                    <th>
+                        <h2>Where you can find us:</h2>
+                    </th>
+
+                    <th>
+                        <h2>Or even better! Write to us right now:</h2>
+                    </th>
+
+                    <th></th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <p style="margin-right: 100px;">
+                                Mary W. Jackson NASA Headquarters
+                                <br/>
+                                300 E. Street SW, Suite 5R30
+                                <br/>
+                                Washington, DC 20546
+                                <br/>
+                                <br/>
+                                (202) 358-0001 (Office)
+                                <br/>
+                                (202) 358-4338 (Fax)
+                            </p>
+                        </td>
+
+                        <td>
+                            <form action="index.html">
+                                <div>
+                                    <label for="id-firstname" style="margin-right: 50px;">First name:</label>
+                                    <input type="text" id="id-firstname">
+                                </div>
+                                <br/>
+                                <div>
+                                    <label for="id-lastname" style="margin-right: 45px;">Last name*:</label>
+                                    <input type="text" id="id-lastname" required>
+                                </div>
+                                <br/>
+                                <div>
+                                    <label for="id-email" style="margin-right: 22px;">Email address*:</label>
+                                    <input type="text" id="id-email" required>
+                                </div>
+                                <br/>
+                                <div>
+                                    <label for="id-phone" style="margin-right: 28px;">Phone number:</label>
+                                    <input type="text" id="id-phone">
+                                </div>
+                                <br/>
+                                <div>
+                                    <label for="ReasonForContacting">The purpose of this message is*:</label>
+                                    <select id="ReasonForContacting" required>
+                                        <option></option>
+                                        <option value="1">To ask questions</option>
+                                        <option value="2">To share information</option>
+                                    </select>
+                                </div>
+                                <br/>
+                                <div>
+                                    <div>
+                                        <label for="messagetext">Message*:</label>
+                                    </div>
+                                    <textarea id="messagetext" cols="40" rows="5" required></textarea>
+                                </div>
+                                <br/>
+                                <div style="margin-bottom: 30px;">
+                                    <label for="picturesubmit" style="margin-right: 22px;">Attach your picture(s) here:</label>
+                                    <input type="file" id="picturesubmit" accept=".png, .jpg" multiple>
+                                </div>
+                                <br/>
+
+                                <span>
+                                    <label for="howtocontact">How you prefer to receive your answer:</label>
+                                </span>
+                                <section id="howtocontact">
+                                    <div>
+                                        <label for="preferredMethodT">Via phone call</label>
+                                        <input type="radio" id="preferredMethodT" value="T" name="nhowtocontact">
+                                    </div>
+                                    <div>
+                                        <label for="preferredMethodE">Via electronic letter</label>
+                                        <input type="radio" id="preferredMethodE" value="E" name="nhowtocontact">
+                                    </div>
+                                </section>
+                                <br/>
+
+                                <div style="margin-top: 50px; margin-bottom: 20px;">
+                                    <input type="checkbox" id="GDPR" required>
+                                    <label for="GDPR"> *I hereby consent to the processing of the personal data that I have provided 
+                                        <br/>
+                                        and declare my agreement with the data protection regulations.</label>
+                                </div>
+
+                                <button type="submit">Send</button>
+                                
+                            </form>
+
+                            
+                        </td>
+
+                        <td>
+                            <img src="../Images/adam-miller-dBaz0xhCkPY-unsplash2.jpg"  
+                            alt="Man in space suit on Earth looking at the sky."
+                            width="700px"
+                            style="margin-left: 100px;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </main>
+
+    </body>
+</html>

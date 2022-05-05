@@ -1,0 +1,23 @@
+body {
+       background-color: #2980b9;
+}
+
+.header_siteLogo {
+       margin-left: 200px;
+       position: fixed;
+       margin-top: 7px;
+}
+
+.header_siteNav {
+       width: 50%;
+       margin: auto;
+       padding-top: 30px;
+       text-align: center;
+}
+
+.header_link {
+       color: white;
+       margin-right: 50px;
+       margin-left: 50px;
+       font-weight: bold;
+}
