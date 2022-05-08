@@ -24,12 +24,11 @@ var evenStudents = [];
 var oddSudents = [];
 
 for (var i = 0; i < students.length; i++) {
-       if ((i % 2) === 0) {
-              evenStudents.push(students[i])
-       } else {
+       if (i % 2) {
               oddSudents.push(students[i])
+       } else {
+              evenStudents.push(students[i])
        }
 }
 
-console.log(evenStudents);
-console.log(oddSudents);
+console.log(oddSudents, evenStudents);
